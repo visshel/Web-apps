@@ -1,0 +1,14 @@
+{
+  "name": "mercedes-amg-f1-lab3",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Лабораторная работа №3: Node.js, npm, карточки, фильтрация и mock-объекты",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
