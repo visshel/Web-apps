@@ -7,7 +7,12 @@ const HOST = '127.0.0.1';
 const indexPath = path.join(__dirname, 'index.html');
 const staticFiles = {
   '/styles.css': { file: path.join(__dirname, 'styles.css'), type: 'text/css; charset=utf-8' },
-  '/script.js': { file: path.join(__dirname, 'script.js'), type: 'text/javascript; charset=utf-8' }
+  '/main.js': { file: path.join(__dirname, 'main.js'), type: 'text/javascript; charset=utf-8' },
+  '/pages/main/index.js': { file: path.join(__dirname, 'pages/main/index.js'), type: 'text/javascript; charset=utf-8' },
+  '/pages/product/index.js': { file: path.join(__dirname, 'pages/product/index.js'), type: 'text/javascript; charset=utf-8' },
+  '/components/product-card/index.js': { file: path.join(__dirname, 'components/product-card/index.js'), type: 'text/javascript; charset=utf-8' },
+  '/components/product/index.js': { file: path.join(__dirname, 'components/product/index.js'), type: 'text/javascript; charset=utf-8' },
+  '/components/back-button/index.js': { file: path.join(__dirname, 'components/back-button/index.js'), type: 'text/javascript; charset=utf-8' }
 };
 
 // Mock-объекты: учебная коллекция, не реальные данные телеметрии.
